@@ -39,7 +39,7 @@ Frontend React pour le projet Kasa. L'application affiche une liste de logements
 │   ├── App.jsx
 │   ├── index.jsx
 │   └── index.css
-├── test/
+├── Tests/
 ├── coverage/
 ├── babel.config.js
 ├── jest.config.js
@@ -65,18 +65,18 @@ Le frontend attend un backend sur `http://localhost:8080` :
 - `GET /api/properties/:id` : detail d'un logement (utilise par `Logement`).
 
 ## Tests et suites de tests
-Les tests sont dans `test/` et couvrent les composants UI principaux.
+Les tests sont dans `Tests/` et couvrent les composants UI principaux.
 
 Suites de tests presentes :
-- `test/Banner.test.js` : image et texte de la banniere.
-- `test/Cards.test.js` : rendu des cartes, navigation, gestion d'erreur fetch.
-- `test/Carrousel.test.js` : navigation, compteur, conditions d'affichage.
-- `test/Collaps.test.js` : etat ouvert/ferme, contenu children.
-- `test/Footer.test.js` : logo et copyright.
-- `test/Header.test.js` : liens, classe active, structure nav.
-- `test/Profil.test.js` : nom et image du profil.
-- `test/Rating.test.js` : rendu des etoiles selon la note.
-- `test/Tags.test.js` : rendu et ordre des tags.
+- `Tests/Banner.test.js` : image et texte de la banniere.
+- `Tests/Cards.test.js` : rendu des cartes, navigation, gestion d'erreur fetch.
+- `Tests/Carrousel.test.js` : navigation, compteur, conditions d'affichage.
+- `Tests/Collaps.test.js` : etat ouvert/ferme, contenu children.
+- `Tests/Footer.test.js` : logo et copyright.
+- `Tests/Header.test.js` : liens, classe active, structure nav.
+- `Tests/Profil.test.js` : nom et image du profil.
+- `Tests/Rating.test.js` : rendu des etoiles selon la note.
+- `Tests/Tags.test.js` : rendu et ordre des tags.
 
 Configuration Jest (resume) :
 - `testEnvironment: "jsdom"`
