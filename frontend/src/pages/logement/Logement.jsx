@@ -22,7 +22,7 @@ function Logement() {
         const data = await response.json()
         setLogement(data)
       } catch (err) {
-        //console.error("Erreur lors de la récupération du logement :", err)
+        console.error(err)
         navigate("/404", { replace: true })
       }
     }
