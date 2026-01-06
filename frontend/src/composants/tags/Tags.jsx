@@ -1,6 +1,5 @@
 import styles from './Tags.module.css'
 
-
 function Tags({tags}) {
     
   return (
@@ -16,4 +15,5 @@ function Tags({tags}) {
     </>
   );
 }
+
 export default Tags

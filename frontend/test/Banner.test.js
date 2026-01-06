@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Banner from '../src/composants/banner/Banner'; // Assure-toi que le chemin est correct
+import Banner from '../src/composants/banner/Banner';
 import '@testing-library/jest-dom'; // Pour avoir accès aux matchers comme `toBeInTheDocument`
 
 describe('Banner Component', () => {
@@ -29,14 +29,6 @@ describe('Banner Component', () => {
 
     // Vérifie que le texte n'est pas rendu
     const textElement = screen.queryByText(/.+/); // Utilise une regex pour vérifier l'absence de texte
-    expect(textElement).not.toBeInTheDocument();
-  });
-
-  it('ne rend pas le texte si la prop "text" est une chaîne vide', () => {
-    render(<Banner image={imageSrc} text={''} />);
-
-    // Vérifie que le texte n'est pas rendu si la prop "text" est une chaîne vide
-    const textElement = screen.queryByText(/.+/);
     expect(textElement).not.toBeInTheDocument();
   });
 

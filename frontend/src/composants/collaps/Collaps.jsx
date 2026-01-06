@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import style from './Collaps.module.css'
 import openImg from '../../assets/open.svg'
 
@@ -28,4 +28,7 @@ function Collaps({title, children}) {
     </>
   );
 }
+
+
+
 export default Collaps

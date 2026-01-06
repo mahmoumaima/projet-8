@@ -23,4 +23,5 @@ function Rating({ rate }) {
   );
 }
 
+
 export default Rating;

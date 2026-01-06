@@ -12,4 +12,5 @@ function Profil({name, picture}) {
     </>
   );
 }
+
 export default Profil
