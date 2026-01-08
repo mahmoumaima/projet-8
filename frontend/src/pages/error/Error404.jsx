@@ -1,5 +1,4 @@
 import styles from './Error.module.css'
-
 import { Link } from "react-router-dom";
 
 function Error404() {
@@ -14,5 +13,4 @@ function Error404() {
     </>
   );
 };
-
 export default Error404;
