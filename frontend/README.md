@@ -339,4 +339,4 @@ docker-compose down
 
 ## Licence
 
-Projet realise dans le cadre de la formation OpenClassrooms - Developpeur d'application JavaScript React.
+Projet realise dans le cadre de la formation OpenClassrooms - Oumaima Mahmoudi.
